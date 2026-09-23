@@ -1,0 +1,8 @@
+# Force LF (Unix) pour tous les fichiers texte, peu importe l'OS de l'utilisateur
+* text=auto eol=lf
+
+# Cas spécifiques : les scripts shell doivent toujours être en LF
+*.sh text eol=lf
+
+# Le Vagrantfile (Ruby) en LF aussi, pour cohérence avec la VM Linux
+Vagrantfile text eol=lf

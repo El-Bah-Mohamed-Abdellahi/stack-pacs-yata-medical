@@ -1,0 +1,7 @@
+.vagrant/
+*.log
+*.box
+test.jpg
+test2.jpg
+instances.json
+series.json
